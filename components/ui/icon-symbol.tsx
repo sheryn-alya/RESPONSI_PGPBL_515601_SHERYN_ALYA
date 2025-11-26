@@ -20,6 +20,8 @@ const MAPPING = {
   'chevron.right': 'chevron-right',
   'add.circle.fill': 'add',
   'usergraduate': 'user-graduate',
+  'map.fill': 'map',
+  'gmap': 'map2',
 } as unknown as IconMapping;
 
 /**

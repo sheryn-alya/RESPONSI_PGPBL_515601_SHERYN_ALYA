@@ -2,11 +2,13 @@ import { Tabs } from 'expo-router';
 import React from 'react';
 
 import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
 import { Colors } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
-import { AntDesign, Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
+import { AntDesign, MaterialCommunityIcons } from '@expo/vector-icons';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
+import Ionicons from '@expo/vector-icons/Ionicons';
+
+import { Foundation } from '@expo/vector-icons';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -48,6 +50,23 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <FontAwesome6 name="map-location" size={22} color="pink" />
         }}
       />
+
+      <Tabs.Screen
+        name="mapwebview"
+        options={{
+          title: 'Map',
+          tabBarIcon: ({ color }) => <Foundation name="map" size={22} color="pink" />
+        }}
+      />
+
+      <Tabs.Screen
+        name="gmap"
+        options={{
+          title: 'GMap',
+          tabBarIcon: ({ color }) => <Ionicons name="map" size={22} color="pink" />
+        }}
+      />
+      
 
     </Tabs>
   );

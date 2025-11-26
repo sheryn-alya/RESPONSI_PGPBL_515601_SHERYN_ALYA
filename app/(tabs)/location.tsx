@@ -1,5 +1,6 @@
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
+import { FontAwesome5 } from '@expo/vector-icons';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import { useRouter } from 'expo-router';
 import { initializeApp } from 'firebase/app';
@@ -7,7 +8,9 @@ import { getDatabase, onValue, ref, remove } from 'firebase/database';
 import React, { useCallback, useEffect, useState } from 'react';
 import {
     ActivityIndicator,
+    Alert,
     Linking,
+    Platform,
     RefreshControl,
     SectionList,
     StyleSheet,
@@ -15,7 +18,8 @@ import {
     View
 } from 'react-native';
 
-// Firebase configuration
+
+// Firebase configuration SHERYN
 const firebaseConfig = {
     apiKey: "AIzaSyDh4QSB5jq_hMuqlivhfyrUsj4cHOYmIbE",
     authDomain: "pgpbl2025-20755.firebaseapp.com",
@@ -87,12 +91,53 @@ export default function LokasiScreen() {
         }, 1000);
     }, []);
 
+    // Navigate to form edit screen
+    const handleEdit = (item: { id: any; name: any; coordinates: any; accuration: any; }) => {
+        router.push({
+            pathname: "/formeditlocation",
+            params: {
+                id: item.id,
+                name: item.name,
+                coordinates: item.coordinates,
+                accuration: item.accuration || ''
+            }
+        });
+    };
+
+
     const handleDelete = (id: string) => {
         const pointRef = ref(db, `points/${id}`);
-        remove(pointRef)
-            .then(() => alert('Data berhasil dihapus!'))
-            .catch((error) => console.error(error));
+
+        const deleteAction = () => {
+            remove(pointRef)
+                .then(() => alert('Data berhasil dihapus!'))
+                .catch((error) => console.error(error));
+        };
+
+        if (Platform.OS === 'web') {
+            if (window.confirm('Apakah Anda yakin ingin menghapus data lokasi ini?')) {
+                deleteAction();
+            }
+        } else {
+            Alert.alert(
+                'Konfirmasi Hapus',
+                'Apakah Anda yakin ingin menghapus data lokasi ini?',
+                [
+                    {
+                        text: 'Batal',
+                        style: 'cancel',
+                    },
+                    {
+                        text: 'Hapus',
+                        onPress: deleteAction,
+                        style: 'destructive',
+                    },
+                ],
+                { cancelable: false }
+            );
+        }
     };
+
 
     if (loading) {
         return (
@@ -130,6 +175,25 @@ export default function LokasiScreen() {
 
                             {/* Tombol aksi */}
                             <View style={styles.actionRow}>
+
+                                {/* Tombol Hapus + Edit (kelompok kiri) */}
+                                <View style={styles.leftButtons}>
+                                    <TouchableOpacity
+                                        style={styles.deleteButton}
+                                        onPress={() => handleDelete(item.id)}
+                                    >
+                                        <FontAwesome6 name="trash" size={16} color="white" />
+                                    </TouchableOpacity>
+
+                                    <TouchableOpacity
+                                        style={styles.editButton}
+                                        onPress={() => handleEdit(item)}
+                                    >
+                                        <FontAwesome5 name="pencil-alt" size={18} color="white" />
+                                    </TouchableOpacity>
+                                </View>
+
+                                {/* Tombol Lihat Maps (kanan) */}
                                 <TouchableOpacity
                                     style={styles.mapButton}
                                     onPress={() => handlePress(item.coordinates)}
@@ -138,14 +202,8 @@ export default function LokasiScreen() {
                                     <ThemedText style={styles.actionText}>Lihat di Maps</ThemedText>
                                 </TouchableOpacity>
 
-                                <TouchableOpacity
-                                    style={styles.deleteButton}
-                                    onPress={() => handleDelete(item.id)}
-                                >
-                                    <FontAwesome6 name="trash" size={16} color="white" />
-                                    <ThemedText style={styles.deleteText}>Hapus</ThemedText>
-                                </TouchableOpacity>
                             </View>
+
                         </View>
                     )}
                     renderSectionHeader={({ section: { title } }) => (
@@ -273,35 +331,47 @@ const styles = StyleSheet.create({
     actionRow: {
         flexDirection: 'row',
         justifyContent: 'space-between',
+        alignItems: 'center',
         marginTop: 10,
     },
+
+    leftButtons: {
+        flexDirection: 'row',
+        gap: 8, // Jarak antar tombol edit & hapus
+    },
+
     mapButton: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#4CAF50',
-        paddingVertical: 6,
-        paddingHorizontal: 10,
+        backgroundColor: '#0077cc',
+        paddingHorizontal: 12,
+        paddingVertical: 8,
         borderRadius: 6,
     },
-    actionText: {
-        color: 'white',
-        marginLeft: 5,
-        fontSize: 13,
-        fontWeight: '600',
-    },
+
     deleteButton: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        backgroundColor: '#ff4d6d',
-        paddingVertical: 6,
-        paddingHorizontal: 10,
+        backgroundColor: '#ff0800ff',
+        padding: 10,
         borderRadius: 6,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
-    deleteText: {
+
+    editButton: {
+        backgroundColor: '#ff9f19ff',
+        padding: 10,
+        borderRadius: 6,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+
+    actionText: {
+        marginLeft: 6,
         color: 'white',
-        marginLeft: 5,
-        fontSize: 13,
+        fontSize: 14,
+        fontWeight: '500',
     },
+
     noData: {
         flex: 1,
         justifyContent: 'center',
