@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# RESPONSI_PGPBL_515601_SHERYN_ALYA
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Node.js](https://img.shields.io/badge/Node.js-v18.x-green)](https://nodejs.org/) 
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE) 
+[![Expo](https://img.shields.io/badge/Expo-Managed-orange)](https://expo.dev)
 
-## Get started
+---
 
-1. Install dependencies
+## Nama
+**GeoPop (Global Population Explorer)**
 
-   ```bash
-   npm install
-   ```
+## Deskripsi
+Aplikasi ini menampilkan data kependudukan dan peta kepadatan secara interaktif.  
+Fitur utama:  
+- Statistik populasi wilayah  
+- Peta distribusi penduduk  
+- Navigasi antar tab untuk data dan peta  
+- Visualisasi peta dengan GeoJSON  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Komponen Pembangun
 
-In the output, you'll find options to open the app in a
+| Komponen        | Teknologi / Library       | Fungsi                                      |
+|-----------------|-------------------------|--------------------------------------------|
+| Frontend        | React Native (Expo)     | UI dan navigasi aplikasi                    |
+| Peta / GIS      | Leaflet / GeoJSON       | Menampilkan peta interaktif                |
+| Data Handling   | JavaScript / JSON       | Mengelola data kependudukan dan peta       |
+| Assets          | Gambar & ikon           | Mendukung visualisasi                       |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Sumber Data
+- **Data kependudukan:** [Contoh Sumber / Dataset Resmi]  
+- **GeoJSON wilayah:** [Contoh Sumber / Dataset Resmi]  
+- **File pendukung:** `assets/data` dan `assets/images`  
 
-## Get a fresh project
+---
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+ ## Tangkapan Layar Komponen Penting
+![Beranda](./assets/images/Beranda.png)
+![Population Map](./assets/images/populationMap.png)
+![Daftar Negara](./assets/images/negara.png)
+![Density Map](./assets/images/density.png)
+![World Statistic](./assets/images/stat.png)
