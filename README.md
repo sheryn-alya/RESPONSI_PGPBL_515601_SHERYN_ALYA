@@ -37,9 +37,17 @@ Fitur utama:
 
 ---
 
- ## Tangkapan Layar Komponen Penting
-![Beranda](./assets/images/Beranda.png)
-![Population Map](./assets/images/populationMap.png)
-![Daftar Negara](./assets/images/negara.png)
-![Density Map](./assets/images/density.png)
-![World Statistic](./assets/images/stat.png)
+## Tangkapan Layar Komponen Penting
+
+| Beranda | Population Map |
+|---------|----------------|
+| <img src="./assets/images/Beranda.png" width="250"/> | <img src="./assets/images/populationMap.png" width="250"/> |
+
+| Daftar Negara | Density Map | World Statistic |
+|---------------|-------------|----------------|
+| <img src="./assets/images/negara.png" width="250"/> | <img src="./assets/images/density.png" width="250"/> | <img src="./assets/images/stat.png" width="250"/> |
+
+---
+
+## Lisensi
+Project ini menggunakan lisensi MIT. Lihat file [LICENSE](LICENSE) untuk detail.
