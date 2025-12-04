@@ -1,14 +1,8 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-
-import { HapticTab } from '@/components/haptic-tab';
 import { Colors } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
-import { AntDesign, MaterialCommunityIcons } from '@expo/vector-icons';
-import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
-import Ionicons from '@expo/vector-icons/Ionicons';
-
-import { Foundation } from '@expo/vector-icons';
+import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
+import { Tabs } from 'expo-router';
+import React from 'react';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -18,56 +12,52 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
-        tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
-        name="index"
+        name="beranda"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="home-heart" size={30} color="pink" />,
+          title: 'Beranda',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="home" size={size} color={color} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="populationmapscreen"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="clover-outline" size={30} color="pink" />,
+          title: 'Population Map',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="map-marker-radius" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="countries"
+        options={{
+          title: 'Negara',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="earth" size={size} color={color} />
+          ),
         }}
       />
 
       <Tabs.Screen
-        name="mahasiswa"
+        name="DensityMapScreen"
         options={{
-          title: 'Mahasiswa',
-          tabBarIcon: ({ color }) => <FontAwesome6 name="user-graduate" size={25} color="pink" />
+          title: "Density Map",
+          tabBarIcon: ({ color }) => <Ionicons name="flame" size={22} color={color} />,
         }}
       />
 
       <Tabs.Screen
-        name="location"
+        name="WorldStatsScreen"
         options={{
-          title: 'Location',
-          tabBarIcon: ({ color }) => <FontAwesome6 name="map-location" size={22} color="pink" />
+          title: "World Stats",
+          tabBarIcon: ({ color }) => <Ionicons name="stats-chart" size={22} color={color} />,
         }}
       />
-
-      <Tabs.Screen
-        name="mapwebview"
-        options={{
-          title: 'Map',
-          tabBarIcon: ({ color }) => <Foundation name="map" size={22} color="pink" />
-        }}
-      />
-
-      <Tabs.Screen
-        name="gmap"
-        options={{
-          title: 'GMap',
-          tabBarIcon: ({ color }) => <Ionicons name="map" size={22} color="pink" />
-        }}
-      />
-      
 
     </Tabs>
+
   );
 }

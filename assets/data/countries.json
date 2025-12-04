@@ -1,0 +1,1952 @@
+[
+  {
+    "id": 1,
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "coordinates": {
+      "latitude": -6.2088,
+      "longitude": 106.8456
+    },
+    "population": 280593400
+  },
+  {
+    "id": 2,
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "coordinates": {
+      "latitude": 38.9072,
+      "longitude": -77.0369
+    },
+    "population": 333287557
+  },
+  {
+    "id": 3,
+    "name": "China",
+    "capital": "Beijing",
+    "coordinates": {
+      "latitude": 39.9042,
+      "longitude": 116.4074
+    },
+    "population": 1444216107
+  },
+  {
+    "id": 4,
+    "name": "India",
+    "capital": "New Delhi",
+    "coordinates": {
+      "latitude": 28.6139,
+      "longitude": 77.209
+    },
+    "population": 1393409038
+  },
+  {
+    "id": 5,
+    "name": "Brazil",
+    "capital": "Brasília",
+    "coordinates": {
+      "latitude": -15.8267,
+      "longitude": -47.9218
+    },
+    "population": 213993437
+  },
+  {
+    "id": 6,
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "coordinates": {
+      "latitude": 9.0765,
+      "longitude": 7.3986
+    },
+    "population": 211400708
+  },
+  {
+    "id": 7,
+    "name": "Russia",
+    "capital": "Moscow",
+    "coordinates": {
+      "latitude": 55.7558,
+      "longitude": 37.6173
+    },
+    "population": 145912025
+  },
+  {
+    "id": 8,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "coordinates": {
+      "latitude": 35.6762,
+      "longitude": 139.6503
+    },
+    "population": 125584838
+  },
+  {
+    "id": 9,
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "coordinates": {
+      "latitude": 33.0,
+      "longitude": 65.0
+    },
+    "population": 43844000
+  },
+  {
+    "id": 10,
+    "name": "Albania",
+    "capital": "Tirana",
+    "coordinates": {
+      "latitude": 41.0,
+      "longitude": 20.0
+    },
+    "population": 2363314
+  },
+  {
+    "id": 11,
+    "name": "Algeria",
+    "capital": "Algiers",
+    "coordinates": {
+      "latitude": 28.0,
+      "longitude": 3.0
+    },
+    "population": 47400000
+  },
+  {
+    "id": 12,
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "coordinates": {
+      "latitude": 42.5,
+      "longitude": 1.5
+    },
+    "population": 88406
+  },
+  {
+    "id": 13,
+    "name": "Angola",
+    "capital": "Luanda",
+    "coordinates": {
+      "latitude": -12.5,
+      "longitude": 18.5
+    },
+    "population": 36170961
+  },
+  {
+    "id": 14,
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "coordinates": {
+      "latitude": 17.05,
+      "longitude": -61.8
+    },
+    "population": 103603
+  },
+  {
+    "id": 15,
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "coordinates": {
+      "latitude": -34.0,
+      "longitude": -64.0
+    },
+    "population": 46735004
+  },
+  {
+    "id": 16,
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "coordinates": {
+      "latitude": 40.0,
+      "longitude": 45.0
+    },
+    "population": 3076200
+  },
+  {
+    "id": 17,
+    "name": "Australia",
+    "capital": "Canberra",
+    "coordinates": {
+      "latitude": -27.0,
+      "longitude": 133.0
+    },
+    "population": 27536874
+  },
+  {
+    "id": 18,
+    "name": "Austria",
+    "capital": "Vienna",
+    "coordinates": {
+      "latitude": 47.33333333,
+      "longitude": 13.33333333
+    },
+    "population": 9200931
+  },
+  {
+    "id": 19,
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "coordinates": {
+      "latitude": 40.5,
+      "longitude": 47.5
+    },
+    "population": 10241722
+  },
+  {
+    "id": 20,
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "coordinates": {
+      "latitude": 25.0343,
+      "longitude": -77.3963
+    },
+    "population": 398165
+  },
+  {
+    "id": 21,
+    "name": "Bahrain",
+    "capital": "Manama",
+    "coordinates": {
+      "latitude": 26.0,
+      "longitude": 50.55
+    },
+    "population": 1594654
+  },
+  {
+    "id": 22,
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "coordinates": {
+      "latitude": 24.0,
+      "longitude": 90.0
+    },
+    "population": 169828911
+  },
+  {
+    "id": 23,
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "coordinates": {
+      "latitude": 13.16666666,
+      "longitude": -59.53333333
+    },
+    "population": 267800
+  },
+  {
+    "id": 24,
+    "name": "Belarus",
+    "capital": "Minsk",
+    "coordinates": {
+      "latitude": 53.0,
+      "longitude": 28.0
+    },
+    "population": 9109280
+  },
+  {
+    "id": 25,
+    "name": "Belgium",
+    "capital": "Brussels",
+    "coordinates": {
+      "latitude": 50.83333333,
+      "longitude": 4.0
+    },
+    "population": 11825551
+  },
+  {
+    "id": 26,
+    "name": "Belize",
+    "capital": "Belmopan",
+    "coordinates": {
+      "latitude": 17.25,
+      "longitude": -88.75
+    },
+    "population": 417634
+  },
+  {
+    "id": 27,
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "coordinates": {
+      "latitude": 9.5,
+      "longitude": 2.25
+    },
+    "population": 13224860
+  },
+  {
+    "id": 28,
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "coordinates": {
+      "latitude": 27.5,
+      "longitude": 90.5
+    },
+    "population": 784043
+  },
+  {
+    "id": 29,
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "coordinates": {
+      "latitude": -17.0,
+      "longitude": -65.0
+    },
+    "population": 11365333
+  },
+  {
+    "id": 30,
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "coordinates": {
+      "latitude": 44.0,
+      "longitude": 18.0
+    },
+    "population": 3422000
+  },
+  {
+    "id": 31,
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "coordinates": {
+      "latitude": -22.0,
+      "longitude": 24.0
+    },
+    "population": 2359609
+  },
+  {
+    "id": 32,
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "coordinates": {
+      "latitude": 4.5,
+      "longitude": 114.66666666
+    },
+    "population": 455500
+  },
+  {
+    "id": 33,
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "coordinates": {
+      "latitude": 43.0,
+      "longitude": 25.0
+    },
+    "population": 6437360
+  },
+  {
+    "id": 34,
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "coordinates": {
+      "latitude": 13.0,
+      "longitude": -2.0
+    },
+    "population": 24070553
+  },
+  {
+    "id": 35,
+    "name": "Burundi",
+    "capital": "Gitega",
+    "coordinates": {
+      "latitude": -3.5,
+      "longitude": 30.0
+    },
+    "population": 12332788
+  },
+  {
+    "id": 36,
+    "name": "Cabo Verde",
+    "capital": "Sucre",
+    "coordinates": {
+      "latitude": -17.0,
+      "longitude": -65.0
+    },
+    "population": 11365333
+  },
+  {
+    "id": 37,
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "coordinates": {
+      "latitude": 13.0,
+      "longitude": 105.0
+    },
+    "population": 17577760
+  },
+  {
+    "id": 38,
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "coordinates": {
+      "latitude": 6.0,
+      "longitude": 12.0
+    },
+    "population": 29442327
+  },
+  {
+    "id": 39,
+    "name": "Canada",
+    "capital": "Ottawa",
+    "coordinates": {
+      "latitude": 60.0,
+      "longitude": -95.0
+    },
+    "population": 41651653
+  },
+  {
+    "id": 40,
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "coordinates": {
+      "latitude": 7.0,
+      "longitude": 21.0
+    },
+    "population": 6470307
+  },
+  {
+    "id": 41,
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "coordinates": {
+      "latitude": 15.0,
+      "longitude": 19.0
+    },
+    "population": 19340757
+  },
+  {
+    "id": 42,
+    "name": "Chile",
+    "capital": "Santiago",
+    "coordinates": {
+      "latitude": -30.0,
+      "longitude": -71.0
+    },
+    "population": 20206953
+  },
+  {
+    "id": 43,
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "coordinates": {
+      "latitude": 4.0,
+      "longitude": -72.0
+    },
+    "population": 53057212
+  },
+  {
+    "id": 44,
+    "name": "Comoros",
+    "capital": "Moroni",
+    "coordinates": {
+      "latitude": -12.16666666,
+      "longitude": 44.25
+    },
+    "population": 919901
+  },
+  {
+    "id": 45,
+    "name": "Congo",
+    "capital": "Brazzaville",
+    "coordinates": {
+      "latitude": -1.0,
+      "longitude": 15.0
+    },
+    "population": 6142180
+  },
+  {
+    "id": 46,
+    "name": "Costa Rica",
+    "capital": "San José",
+    "coordinates": {
+      "latitude": 10.0,
+      "longitude": -84.0
+    },
+    "population": 5309625
+  },
+  {
+    "id": 47,
+    "name": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "coordinates": {
+      "latitude": 8.0,
+      "longitude": -5.0
+    },
+    "population": 31719275
+  },
+  {
+    "id": 48,
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "coordinates": {
+      "latitude": 45.16666666,
+      "longitude": 15.5
+    },
+    "population": 3866233
+  },
+  {
+    "id": 49,
+    "name": "Cuba",
+    "capital": "Havana",
+    "coordinates": {
+      "latitude": 21.5,
+      "longitude": -80.0
+    },
+    "population": 9748007
+  },
+  {
+    "id": 50,
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "coordinates": {
+      "latitude": 35.0,
+      "longitude": 33.0
+    },
+    "population": 1442614
+  },
+  {
+    "id": 51,
+    "name": "Czech Republic",
+    "capital": "Prague",
+    "coordinates": {
+      "latitude": 49.75,
+      "longitude": 15.5
+    },
+    "population": 10882341
+  },
+  {
+    "id": 52,
+    "name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "coordinates": {
+      "latitude": 0.0,
+      "longitude": 25.0
+    },
+    "population": 112832000
+  },
+  {
+    "id": 53,
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "coordinates": {
+      "latitude": 56.0,
+      "longitude": 10.0
+    },
+    "population": 6011488
+  },
+  {
+    "id": 54,
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "coordinates": {
+      "latitude": 11.5,
+      "longitude": 43.0
+    },
+    "population": 1066809
+  },
+  {
+    "id": 55,
+    "name": "Dominica",
+    "capital": "Roseau",
+    "coordinates": {
+      "latitude": 15.41666666,
+      "longitude": -61.33333333
+    },
+    "population": 67408
+  },
+  {
+    "id": 56,
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "coordinates": {
+      "latitude": 19.0,
+      "longitude": -70.66666666
+    },
+    "population": 10771504
+  },
+  {
+    "id": 57,
+    "name": "Ecuador",
+    "capital": "Quito",
+    "coordinates": {
+      "latitude": -2.0,
+      "longitude": -77.5
+    },
+    "population": 18103660
+  },
+  {
+    "id": 58,
+    "name": "Egypt",
+    "capital": "Cairo",
+    "coordinates": {
+      "latitude": 27.0,
+      "longitude": 30.0
+    },
+    "population": 107271260
+  },
+  {
+    "id": 59,
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "coordinates": {
+      "latitude": 13.83333333,
+      "longitude": -88.91666666
+    },
+    "population": 6029976
+  },
+  {
+    "id": 60,
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "coordinates": {
+      "latitude": 2.0,
+      "longitude": 10.0
+    },
+    "population": 1668768
+  },
+  {
+    "id": 61,
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "coordinates": {
+      "latitude": 15.0,
+      "longitude": 39.0
+    },
+    "population": 3607000
+  },
+  {
+    "id": 62,
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "coordinates": {
+      "latitude": 59.0,
+      "longitude": 26.0
+    },
+    "population": 1369995
+  },
+  {
+    "id": 63,
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "coordinates": {
+      "latitude": -26.5,
+      "longitude": 31.5
+    },
+    "population": 1235549
+  },
+  {
+    "id": 64,
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "coordinates": {
+      "latitude": 8.0,
+      "longitude": 38.0
+    },
+    "population": 111652998
+  },
+  {
+    "id": 65,
+    "name": "Fiji",
+    "capital": "Suva",
+    "coordinates": {
+      "latitude": -17.7134,
+      "longitude": 178.065
+    },
+    "population": 900869
+  },
+  {
+    "id": 66,
+    "name": "Finland",
+    "capital": "Helsinki",
+    "coordinates": {
+      "latitude": 64.0,
+      "longitude": 26.0
+    },
+    "population": 5650325
+  },
+  {
+    "id": 67,
+    "name": "France",
+    "capital": "Paris",
+    "coordinates": {
+      "latitude": 46.0,
+      "longitude": 2.0
+    },
+    "population": 66351959
+  },
+  {
+    "id": 68,
+    "name": "Gabon",
+    "capital": "Libreville",
+    "coordinates": {
+      "latitude": -1.0,
+      "longitude": 11.75
+    },
+    "population": 2469296
+  },
+  {
+    "id": 69,
+    "name": "Gambia",
+    "capital": "Banjul",
+    "coordinates": {
+      "latitude": 13.46666666,
+      "longitude": -16.56666666
+    },
+    "population": 2422712
+  },
+  {
+    "id": 70,
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "coordinates": {
+      "latitude": 42.0,
+      "longitude": 43.5
+    },
+    "population": 4000921
+  },
+  {
+    "id": 71,
+    "name": "Germany",
+    "capital": "Berlin",
+    "coordinates": {
+      "latitude": 51.0,
+      "longitude": 9.0
+    },
+    "population": 83491249
+  },
+  {
+    "id": 72,
+    "name": "Ghana",
+    "capital": "Accra",
+    "coordinates": {
+      "latitude": 8.0,
+      "longitude": -2.0
+    },
+    "population": 33742380
+  },
+  {
+    "id": 73,
+    "name": "Greece",
+    "capital": "Athens",
+    "coordinates": {
+      "latitude": 39.0,
+      "longitude": 22.0
+    },
+    "population": 10400720
+  },
+  {
+    "id": 74,
+    "name": "Grenada",
+    "capital": "St. George's",
+    "coordinates": {
+      "latitude": 12.11666666,
+      "longitude": -61.66666666
+    },
+    "population": 109021
+  },
+  {
+    "id": 75,
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "coordinates": {
+      "latitude": 15.5,
+      "longitude": -90.25
+    },
+    "population": 18079810
+  },
+  {
+    "id": 76,
+    "name": "Guinea",
+    "capital": "Conakry",
+    "coordinates": {
+      "latitude": 11.0,
+      "longitude": -10.0
+    },
+    "population": 14363931
+  },
+  {
+    "id": 77,
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "coordinates": {
+      "latitude": 12.0,
+      "longitude": -15.0
+    },
+    "population": 1781308
+  },
+  {
+    "id": 78,
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "coordinates": {
+      "latitude": 5.0,
+      "longitude": -59.0
+    },
+    "population": 772975
+  },
+  {
+    "id": 79,
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "coordinates": {
+      "latitude": 19.0,
+      "longitude": -72.41666666
+    },
+    "population": 11867032
+  },
+  {
+    "id": 80,
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "coordinates": {
+      "latitude": 15.0,
+      "longitude": -86.5
+    },
+    "population": 9892632
+  },
+  {
+    "id": 81,
+    "name": "Hungary",
+    "capital": "Budapest",
+    "coordinates": {
+      "latitude": 47.0,
+      "longitude": 20.0
+    },
+    "population": 9539502
+  },
+  {
+    "id": 82,
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "coordinates": {
+      "latitude": 65.0,
+      "longitude": -18.0
+    },
+    "population": 391810
+  },
+  {
+    "id": 83,
+    "name": "Iran",
+    "capital": "Tehran",
+    "coordinates": {
+      "latitude": 32.0,
+      "longitude": 53.0
+    },
+    "population": 85961000
+  },
+  {
+    "id": 84,
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "coordinates": {
+      "latitude": 33.0,
+      "longitude": 44.0
+    },
+    "population": 46118793
+  },
+  {
+    "id": 85,
+    "name": "Ireland",
+    "capital": "Dublin",
+    "coordinates": {
+      "latitude": 53.0,
+      "longitude": -8.0
+    },
+    "population": 5458600
+  },
+  {
+    "id": 86,
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "coordinates": {
+      "latitude": 31.47,
+      "longitude": 35.13
+    },
+    "population": 10134800
+  },
+  {
+    "id": 87,
+    "name": "Italy",
+    "capital": "Rome",
+    "coordinates": {
+      "latitude": 42.83333333,
+      "longitude": 12.83333333
+    },
+    "population": 58927633
+  },
+  {
+    "id": 88,
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "coordinates": {
+      "latitude": 18.25,
+      "longitude": -77.5
+    },
+    "population": 2825544
+  },
+  {
+    "id": 89,
+    "name": "Jordan",
+    "capital": "Amman",
+    "coordinates": {
+      "latitude": 31.0,
+      "longitude": 36.0
+    },
+    "population": 11734000
+  },
+  {
+    "id": 90,
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "coordinates": {
+      "latitude": 48.0196,
+      "longitude": 66.9237
+    },
+    "population": 20426568
+  },
+  {
+    "id": 91,
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "coordinates": {
+      "latitude": 1.0,
+      "longitude": 38.0
+    },
+    "population": 53330978
+  },
+  {
+    "id": 92,
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "coordinates": {
+      "latitude": 1.41666666,
+      "longitude": 173.0
+    },
+    "population": 120740
+  },
+  {
+    "id": 93,
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "coordinates": {
+      "latitude": 29.5,
+      "longitude": 45.75
+    },
+    "population": 4881254
+  },
+  {
+    "id": 94,
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "coordinates": {
+      "latitude": 41.0,
+      "longitude": 75.0
+    },
+    "population": 7281800
+  },
+  {
+    "id": 95,
+    "name": "Laos",
+    "capital": "Vientiane",
+    "coordinates": {
+      "latitude": 18.0,
+      "longitude": 105.0
+    },
+    "population": 7647000
+  },
+  {
+    "id": 96,
+    "name": "Latvia",
+    "capital": "Riga",
+    "coordinates": {
+      "latitude": 57.0,
+      "longitude": 25.0
+    },
+    "population": 1829000
+  },
+  {
+    "id": 97,
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "coordinates": {
+      "latitude": 33.83333333,
+      "longitude": 35.83333333
+    },
+    "population": 5490000
+  },
+  {
+    "id": 98,
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "coordinates": {
+      "latitude": -29.5,
+      "longitude": 28.5
+    },
+    "population": 2116427
+  },
+  {
+    "id": 99,
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "coordinates": {
+      "latitude": 6.5,
+      "longitude": -9.5
+    },
+    "population": 5248621
+  },
+  {
+    "id": 100,
+    "name": "Libya",
+    "capital": "Tripoli",
+    "coordinates": {
+      "latitude": 25.0,
+      "longitude": 17.0
+    },
+    "population": 7459000
+  },
+  {
+    "id": 101,
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "coordinates": {
+      "latitude": 47.26666666,
+      "longitude": 9.53333333
+    },
+    "population": 40900
+  },
+  {
+    "id": 102,
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "coordinates": {
+      "latitude": 56.0,
+      "longitude": 24.0
+    },
+    "population": 2894886
+  },
+  {
+    "id": 103,
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "coordinates": {
+      "latitude": 49.75,
+      "longitude": 6.16666666
+    },
+    "population": 681973
+  },
+  {
+    "id": 104,
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "coordinates": {
+      "latitude": -20.0,
+      "longitude": 47.0
+    },
+    "population": 31727042
+  },
+  {
+    "id": 105,
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "coordinates": {
+      "latitude": -13.5,
+      "longitude": 34.0
+    },
+    "population": 20734262
+  },
+  {
+    "id": 106,
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "coordinates": {
+      "latitude": 2.5,
+      "longitude": 112.5
+    },
+    "population": 34231700
+  },
+  {
+    "id": 107,
+    "name": "Maldives",
+    "capital": "Malé",
+    "coordinates": {
+      "latitude": 3.25,
+      "longitude": 73.0
+    },
+    "population": 515132
+  },
+  {
+    "id": 108,
+    "name": "Mali",
+    "capital": "Bamako",
+    "coordinates": {
+      "latitude": 17.0,
+      "longitude": -4.0
+    },
+    "population": 22395489
+  },
+  {
+    "id": 109,
+    "name": "Malta",
+    "capital": "Valletta",
+    "coordinates": {
+      "latitude": 35.9375,
+      "longitude": 14.3754
+    },
+    "population": 574250
+  },
+  {
+    "id": 110,
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "coordinates": {
+      "latitude": 9.0,
+      "longitude": 168.0
+    },
+    "population": 42418
+  },
+  {
+    "id": 111,
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "coordinates": {
+      "latitude": 20.0,
+      "longitude": -12.0
+    },
+    "population": 4927532
+  },
+  {
+    "id": 112,
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "coordinates": {
+      "latitude": -20.28333333,
+      "longitude": 57.55
+    },
+    "population": 1243741
+  },
+  {
+    "id": 113,
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "coordinates": {
+      "latitude": 23.0,
+      "longitude": -102.0
+    },
+    "population": 130575786
+  },
+  {
+    "id": 114,
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "coordinates": {
+      "latitude": 6.91666666,
+      "longitude": 158.25
+    },
+    "population": 105564
+  },
+  {
+    "id": 115,
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "coordinates": {
+      "latitude": 47.0,
+      "longitude": 29.0
+    },
+    "population": 2749076
+  },
+  {
+    "id": 116,
+    "name": "Monaco",
+    "capital": "Monaco",
+    "coordinates": {
+      "latitude": 43.73333333,
+      "longitude": 7.4
+    },
+    "population": 38423
+  },
+  {
+    "id": 117,
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "coordinates": {
+      "latitude": 46.0,
+      "longitude": 105.0
+    },
+    "population": 3544835
+  },
+  {
+    "id": 118,
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "coordinates": {
+      "latitude": 42.5,
+      "longitude": 19.3
+    },
+    "population": 623327
+  },
+  {
+    "id": 119,
+    "name": "Morocco",
+    "capital": "Rabat",
+    "coordinates": {
+      "latitude": 32.0,
+      "longitude": -5.0
+    },
+    "population": 36828330
+  },
+  {
+    "id": 120,
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "coordinates": {
+      "latitude": -18.25,
+      "longitude": 35.0
+    },
+    "population": 34090466
+  },
+  {
+    "id": 121,
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "coordinates": {
+      "latitude": 22.0,
+      "longitude": 98.0
+    },
+    "population": 51316756
+  },
+  {
+    "id": 122,
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "coordinates": {
+      "latitude": -22.0,
+      "longitude": 17.0
+    },
+    "population": 3022401
+  },
+  {
+    "id": 123,
+    "name": "Nauru",
+    "capital": "Yaren",
+    "coordinates": {
+      "latitude": -0.53333333,
+      "longitude": 166.91666666
+    },
+    "population": 11680
+  },
+  {
+    "id": 124,
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "coordinates": {
+      "latitude": 28.0,
+      "longitude": 84.0
+    },
+    "population": 29911840
+  },
+  {
+    "id": 125,
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "coordinates": {
+      "latitude": 52.5,
+      "longitude": 5.75
+    },
+    "population": 18100436
+  },
+  {
+    "id": 126,
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "coordinates": {
+      "latitude": -41.0,
+      "longitude": 174.0
+    },
+    "population": 5324700
+  },
+  {
+    "id": 127,
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "coordinates": {
+      "latitude": 13.0,
+      "longitude": -85.0
+    },
+    "population": 6803886
+  },
+  {
+    "id": 128,
+    "name": "Niger",
+    "capital": "Niamey",
+    "coordinates": {
+      "latitude": 16.0,
+      "longitude": 8.0
+    },
+    "population": 26312034
+  },
+  {
+    "id": 129,
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "coordinates": {
+      "latitude": 40.0,
+      "longitude": 127.0
+    },
+    "population": 25950000
+  },
+  {
+    "id": 130,
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "coordinates": {
+      "latitude": 41.83333333,
+      "longitude": 22.0
+    },
+    "population": 1822612
+  },
+  {
+    "id": 131,
+    "name": "Norway",
+    "capital": "Oslo",
+    "coordinates": {
+      "latitude": 62.0,
+      "longitude": 10.0
+    },
+    "population": 5606944
+  },
+  {
+    "id": 132,
+    "name": "Oman",
+    "capital": "Muscat",
+    "coordinates": {
+      "latitude": 21.0,
+      "longitude": 57.0
+    },
+    "population": 5343630
+  },
+  {
+    "id": 133,
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "coordinates": {
+      "latitude": 30.0,
+      "longitude": 70.0
+    },
+    "population": 241499431
+  },
+  {
+    "id": 134,
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "coordinates": {
+      "latitude": 7.5,
+      "longitude": 134.5
+    },
+    "population": 16733
+  },
+  {
+    "id": 135,
+    "name": "Palestine",
+    "capital": "Ramallah",
+    "coordinates": {
+      "latitude": 31.9,
+      "longitude": 35.2
+    },
+    "population": 5483450
+  },
+  {
+    "id": 136,
+    "name": "Panama",
+    "capital": "Panama City",
+    "coordinates": {
+      "latitude": 9.0,
+      "longitude": -80.0
+    },
+    "population": 4064780
+  },
+  {
+    "id": 137,
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "coordinates": {
+      "latitude": -6.0,
+      "longitude": 147.0
+    },
+    "population": 11781559
+  },
+  {
+    "id": 138,
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "coordinates": {
+      "latitude": -23.0,
+      "longitude": -58.0
+    },
+    "population": 6109644
+  },
+  {
+    "id": 139,
+    "name": "Peru",
+    "capital": "Lima",
+    "coordinates": {
+      "latitude": -10.0,
+      "longitude": -76.0
+    },
+    "population": 34350244
+  },
+  {
+    "id": 140,
+    "name": "Philippines",
+    "capital": "Manila",
+    "coordinates": {
+      "latitude": 13.0,
+      "longitude": 122.0
+    },
+    "population": 114123600
+  },
+  {
+    "id": 141,
+    "name": "Poland",
+    "capital": "Warsaw",
+    "coordinates": {
+      "latitude": 52.0,
+      "longitude": 20.0
+    },
+    "population": 37392000
+  },
+  {
+    "id": 142,
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "coordinates": {
+      "latitude": 39.5,
+      "longitude": -8.0
+    },
+    "population": 10749635
+  },
+  {
+    "id": 143,
+    "name": "Qatar",
+    "capital": "Doha",
+    "coordinates": {
+      "latitude": 25.5,
+      "longitude": 51.25
+    },
+    "population": 3173024
+  },
+  {
+    "id": 144,
+    "name": "Romania",
+    "capital": "Bucharest",
+    "coordinates": {
+      "latitude": 46.0,
+      "longitude": 25.0
+    },
+    "population": 19036031
+  },
+  {
+    "id": 145,
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "coordinates": {
+      "latitude": -2.0,
+      "longitude": 30.0
+    },
+    "population": 14104969
+  },
+  {
+    "id": 146,
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "coordinates": {
+      "latitude": 17.33333333,
+      "longitude": -62.75
+    },
+    "population": 51320
+  },
+  {
+    "id": 147,
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "coordinates": {
+      "latitude": 13.88333333,
+      "longitude": -60.96666666
+    },
+    "population": 184100
+  },
+  {
+    "id": 148,
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "coordinates": {
+      "latitude": 13.25,
+      "longitude": -61.2
+    },
+    "population": 110872
+  },
+  {
+    "id": 149,
+    "name": "Samoa",
+    "capital": "Apia",
+    "coordinates": {
+      "latitude": -13.58333333,
+      "longitude": -172.33333333
+    },
+    "population": 205557
+  },
+  {
+    "id": 150,
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "coordinates": {
+      "latitude": 43.76666666,
+      "longitude": 12.41666666
+    },
+    "population": 34132
+  },
+  {
+    "id": 151,
+    "name": "Sao Tome and Principe",
+    "capital": "São Tomé",
+    "coordinates": {
+      "latitude": 1.0,
+      "longitude": 7.0
+    },
+    "population": 209607
+  },
+  {
+    "id": 152,
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "coordinates": {
+      "latitude": 25.0,
+      "longitude": 45.0
+    },
+    "population": 35300280
+  },
+  {
+    "id": 153,
+    "name": "Senegal",
+    "capital": "Dakar",
+    "coordinates": {
+      "latitude": 14.0,
+      "longitude": -14.0
+    },
+    "population": 18593258
+  },
+  {
+    "id": 154,
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "coordinates": {
+      "latitude": 44.0,
+      "longitude": 21.0
+    },
+    "population": 6567783
+  },
+  {
+    "id": 155,
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "coordinates": {
+      "latitude": -4.58333333,
+      "longitude": 55.66666666
+    },
+    "population": 122729
+  },
+  {
+    "id": 156,
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "coordinates": {
+      "latitude": 8.5,
+      "longitude": -11.5
+    },
+    "population": 9077691
+  },
+  {
+    "id": 157,
+    "name": "Singapore",
+    "capital": "Singapore",
+    "coordinates": {
+      "latitude": 1.36666666,
+      "longitude": 103.8
+    },
+    "population": 6110200
+  },
+  {
+    "id": 158,
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "coordinates": {
+      "latitude": 48.66666666,
+      "longitude": 19.5
+    },
+    "population": 5413813
+  },
+  {
+    "id": 159,
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "coordinates": {
+      "latitude": 46.11666666,
+      "longitude": 14.81666666
+    },
+    "population": 2130638
+  },
+  {
+    "id": 160,
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "coordinates": {
+      "latitude": -8.0,
+      "longitude": 159.0
+    },
+    "population": 750325
+  },
+  {
+    "id": 161,
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "coordinates": {
+      "latitude": 10.0,
+      "longitude": 49.0
+    },
+    "population": 19655000
+  },
+  {
+    "id": 162,
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "coordinates": {
+      "latitude": -29.0,
+      "longitude": 24.0
+    },
+    "population": 63100945
+  },
+  {
+    "id": 163,
+    "name": "South Korea",
+    "capital": "Seoul",
+    "coordinates": {
+      "latitude": 37.0,
+      "longitude": 127.5
+    },
+    "population": 51159889
+  },
+  {
+    "id": 164,
+    "name": "South Sudan",
+    "capital": "Juba",
+    "coordinates": {
+      "latitude": 7.0,
+      "longitude": 30.0
+    },
+    "population": 15786898
+  },
+  {
+    "id": 165,
+    "name": "Spain",
+    "capital": "Madrid",
+    "coordinates": {
+      "latitude": 40.0,
+      "longitude": -4.0
+    },
+    "population": 49315949
+  },
+  {
+    "id": 166,
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "coordinates": {
+      "latitude": 7.0,
+      "longitude": 81.0
+    },
+    "population": 21763170
+  },
+  {
+    "id": 167,
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "coordinates": {
+      "latitude": 15.0,
+      "longitude": 30.0
+    },
+    "population": 51662000
+  },
+  {
+    "id": 168,
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "coordinates": {
+      "latitude": 4.0,
+      "longitude": -56.0
+    },
+    "population": 616500
+  },
+  {
+    "id": 169,
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "coordinates": {
+      "latitude": 62.0,
+      "longitude": 15.0
+    },
+    "population": 10605098
+  },
+  {
+    "id": 170,
+    "name": "Switzerland",
+    "capital": "Bern",
+    "coordinates": {
+      "latitude": 47.0,
+      "longitude": 8.0
+    },
+    "population": 9082848
+  },
+  {
+    "id": 171,
+    "name": "Syria",
+    "capital": "Damascus",
+    "coordinates": {
+      "latitude": 35.0,
+      "longitude": 38.0
+    },
+    "population": 25620000
+  },
+  {
+    "id": 172,
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "coordinates": {
+      "latitude": 39.0,
+      "longitude": 71.0
+    },
+    "population": 10499000
+  },
+  {
+    "id": 173,
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "coordinates": {
+      "latitude": -6.0,
+      "longitude": 35.0
+    },
+    "population": 68153004
+  },
+  {
+    "id": 174,
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "coordinates": {
+      "latitude": 15.0,
+      "longitude": 100.0
+    },
+    "population": 65859640
+  },
+  {
+    "id": 175,
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "coordinates": {
+      "latitude": -8.83333333,
+      "longitude": 125.91666666
+    },
+    "population": 1391221
+  },
+  {
+    "id": 176,
+    "name": "Togo",
+    "capital": "Lomé",
+    "coordinates": {
+      "latitude": 8.0,
+      "longitude": 1.16666666
+    },
+    "population": 8095498
+  },
+  {
+    "id": 177,
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "coordinates": {
+      "latitude": -20.0,
+      "longitude": -175.0
+    },
+    "population": 100179
+  },
+  {
+    "id": 178,
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "coordinates": {
+      "latitude": 10.6918,
+      "longitude": -61.2225
+    },
+    "population": 1367764
+  },
+  {
+    "id": 179,
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "coordinates": {
+      "latitude": 34.0,
+      "longitude": 9.0
+    },
+    "population": 11972169
+  },
+  {
+    "id": 180,
+    "name": "Turkey",
+    "capital": "Ankara",
+    "coordinates": {
+      "latitude": 39.0,
+      "longitude": 35.0
+    },
+    "population": 85664944
+  },
+  {
+    "id": 181,
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "coordinates": {
+      "latitude": 40.0,
+      "longitude": 60.0
+    },
+    "population": 7057841
+  },
+  {
+    "id": 182,
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "coordinates": {
+      "latitude": -8.0,
+      "longitude": 178.0
+    },
+    "population": 10643
+  },
+  {
+    "id": 183,
+    "name": "Uganda",
+    "capital": "Kampala",
+    "coordinates": {
+      "latitude": 1.0,
+      "longitude": 32.0
+    },
+    "population": 45905417
+  },
+  {
+    "id": 184,
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "coordinates": {
+      "latitude": 49.0,
+      "longitude": 32.0
+    },
+    "population": 32862000
+  },
+  {
+    "id": 185,
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "coordinates": {
+      "latitude": 24.0,
+      "longitude": 54.0
+    },
+    "population": 11294243
+  },
+  {
+    "id": 186,
+    "name": "United Kingdom",
+    "capital": "London",
+    "coordinates": {
+      "latitude": 54.0,
+      "longitude": -2.0
+    },
+    "population": 69281437
+  },
+  {
+    "id": 187,
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "coordinates": {
+      "latitude": -33.0,
+      "longitude": -56.0
+    },
+    "population": 3499451
+  },
+  {
+    "id": 188,
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "coordinates": {
+      "latitude": 41.0,
+      "longitude": 64.0
+    },
+    "population": 37859698
+  },
+  {
+    "id": 189,
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "coordinates": {
+      "latitude": -16.0,
+      "longitude": 167.0
+    },
+    "population": 321409
+  },
+  {
+    "id": 190,
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "coordinates": {
+      "latitude": 41.9,
+      "longitude": 12.45
+    },
+    "population": 882
+  },
+  {
+    "id": 191,
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "coordinates": {
+      "latitude": 8.0,
+      "longitude": -66.0
+    },
+    "population": 28517000
+  },
+  {
+    "id": 192,
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "coordinates": {
+      "latitude": 16.16666666,
+      "longitude": 107.83333333
+    },
+    "population": 101343800
+  },
+  {
+    "id": 193,
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "coordinates": {
+      "latitude": 15.0,
+      "longitude": 48.0
+    },
+    "population": 32684503
+  },
+  {
+    "id": 194,
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "coordinates": {
+      "latitude": -15.0,
+      "longitude": 30.0
+    },
+    "population": 19693423
+  },
+  {
+    "id": 195,
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "coordinates": {
+      "latitude": -20.0,
+      "longitude": 30.0
+    },
+    "population": 17073087
+  }
+]
